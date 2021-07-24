@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scrollbar-color: theme('colors.gray.300') theme('colors.gray.100');
+  &::-webkit-scrollbar {
+    @apply w-2 h-1;
+    &-track {
+      @apply bg-gray-100;
+    }
+    &-thumb {
+      @apply bg-gray-300 rounded-full hover:bg-gray-400;
+    }
+  }
+}
+
+.javascript {
+  @apply text-indigo-400;
+  .comment {
+    @apply text-gray-400;
+  }
+  .keyword {
+    @apply text-lime-300;
+  }
+  .punctuation,
+  .operator {
+    @apply text-emerald-200;
+  }
+
+  .string {
+    @apply text-yellow-300;
+  }
+  .function {
+    @apply text-fuchsia-500;
+  }
+  .parameter {
+    @apply text-cyan-400;
+  }
+}
+
+.scrollbar-hidden {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    @apply hidden w-0;
+  }
+}
+
+.prose {
+  a {
+    @apply no-underline relative after:h-1 after:absolute after:inset-x-0 after:bottom-1 after:bg-sky-400/50;
+  }
+  pre {
+    @apply bg-transparent my-0 py-[1.7142857em];
+  }
+  ul li {
+    @apply before:hidden;
+  }
+}
+
+i {
+  @apply cursor-pointer;
+}
+
+textarea {
+  resize: none;
+}
