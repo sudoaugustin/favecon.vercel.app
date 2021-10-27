@@ -9,7 +9,7 @@ const Footer = () => (
       <p className='text-gray-600 text-xs font-semibold leading-none tracking-wide'>
         A PROJECT BY{' '}
       </p>
-      <a href='https://github.com/sudolab' className="font-semibold text-xs text-sky-600 leading-none tracking-wide" >Augustin Joseph</a>
+      <a href='https://github.com/sudolab' className="font-semibold text-sm text-sky-600 leading-none tracking-wide" >Augustin Joseph</a>
     </div>
     {/* <-- Right --> */}
     <div className='inline-flex space-x-6'>
