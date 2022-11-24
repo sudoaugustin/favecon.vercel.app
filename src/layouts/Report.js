@@ -12,7 +12,7 @@ const Report = () => (
       </Text>
       <div className='flex flex-col items-center py-5'>
         <KhabyIcon />
-        <a href='https://github.com/sudolab/favecon/issues/new' className='inline-block mt-1'>
+        <a href='https://github.com/sudoaugustin/favecon/issues/new' className='inline-block mt-1'>
           <Button
             icon={<GithubIcon />}
             label='Report on Github'
