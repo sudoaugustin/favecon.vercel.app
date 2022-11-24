@@ -15,7 +15,7 @@ const Footer = () => (
     <div className='inline-flex space-x-6'>
       <a
         className='text-gray-600 hover:text-gray-400 transition duration-300 inline-block'
-        href='https://github.com/sudolab/favecon'>
+        href='https://github.com/sudoaugustin/favecon'>
         <GithubIcon className='w-8' />
       </a>
     </div>
